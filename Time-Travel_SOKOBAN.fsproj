@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Time_Travel_SOKOBAN</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <Compile Include="Mapdef.fs" /> 
+	  <Compile Include="Reader.fs" /> <Compile Include="Setting.fs" /> 
+	  <Compile Include="Running.fs" /> <Compile Include="Viewer.fs" /> 
+	  <Compile Include="MainScreen.fs" /> <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>
